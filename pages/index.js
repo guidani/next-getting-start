@@ -10,7 +10,6 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
-        {data?.text}
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
